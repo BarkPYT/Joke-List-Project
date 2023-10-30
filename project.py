@@ -17,28 +17,28 @@ class Main(tk.Frame):
         toolbar.pack(side=tk.TOP, fill=tk.X)
         
         # Кнопка добавления
-        self.img_add = tk.PhotoImage(file="D:/python/mod4/project7/img/add.png")
+        self.img_add = tk.PhotoImage(file="./add.png")
         btn_add = tk.Button(toolbar, text="Добавить", bg="#d7d7e0",
                             bd = 0, image=self.img_add,
                             command=self.open_child)
         btn_add.pack(side=tk.LEFT)
 
         # Кнопка изменения
-        self.img_upd = tk.PhotoImage(file="D:/python/mod4/project7/img/change.png")
+        self.img_upd = tk.PhotoImage(file="./change.png")
         btn_upd = tk.Button(toolbar, bg="#d7d7d7",
                             bd = 0, image=self.img_upd,
                             command=self.open_update_child)
         btn_upd.pack(side=tk.LEFT)
 
         # Кнопка поиска
-        self.img_search = tk.PhotoImage(file="D:/python/mod4/project7/img/search.png")
+        self.img_search = tk.PhotoImage(file="./search.png")
         btn_search = tk.Button(toolbar, bg="#d7d7e0", 
                                bd = 0, image=self.img_search,
                                command=self.open_searc)
         btn_search.pack(side=tk.LEFT)
 
         # Кнопка обновления
-        self.img_refresh = tk.PhotoImage(file="D:/python/mod4/project7/img/refresh.png")
+        self.img_refresh = tk.PhotoImage(file="./refresh.png")
         btn_refresh = tk.Button(toolbar, bg="#d7d7e0",
                                 bd = 0, image=self.img_refresh,
                                 command=self.view_records)
