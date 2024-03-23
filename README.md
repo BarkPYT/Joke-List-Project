@@ -1,4 +1,4 @@
-Программа для сохранения анекдотов на Python
+Программа для сохранения анекдотов на Python /
 A program for saving jokes in Python
 
 To add Jokes to db (database) run `project.py`
